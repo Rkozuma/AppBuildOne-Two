@@ -12,6 +12,7 @@
 		7FB6FCE32405B6B900C5277B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB6FCE12405B6B900C5277B /* Main.storyboard */; };
 		7FB6FCE52405B6B900C5277B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB6FCE42405B6B900C5277B /* Assets.xcassets */; };
 		7FB6FCE82405B6B900C5277B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB6FCE62405B6B900C5277B /* LaunchScreen.storyboard */; };
+		7FB6FCF02405B75900C5277B /* SeconsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB6FCEF2405B75900C5277B /* SeconsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7FB6FCE42405B6B900C5277B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FB6FCE72405B6B900C5277B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FB6FCE92405B6B900C5277B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB6FCEF2405B75900C5277B /* SeconsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeconsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				7FB6FCDD2405B6B800C5277B /* AppDelegate.swift */,
 				7FB6FCDF2405B6B900C5277B /* ViewController.swift */,
 				7FB6FCE12405B6B900C5277B /* Main.storyboard */,
+				7FB6FCEF2405B75900C5277B /* SeconsViewController.swift */,
 				7FB6FCE42405B6B900C5277B /* Assets.xcassets */,
 				7FB6FCE62405B6B900C5277B /* LaunchScreen.storyboard */,
 				7FB6FCE92405B6B900C5277B /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FB6FCF02405B75900C5277B /* SeconsViewController.swift in Sources */,
 				7FB6FCE02405B6B900C5277B /* ViewController.swift in Sources */,
 				7FB6FCDE2405B6B800C5277B /* AppDelegate.swift in Sources */,
 			);
