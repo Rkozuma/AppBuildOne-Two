@@ -25,6 +25,7 @@ class SeconsViewController: UIViewController
     override func viewDidLoad()
     {
         self.FirstLabel.text = "The answer is: "
+        self.SecondLabel.text = " "
         
         super.viewDidLoad()
 
@@ -43,7 +44,12 @@ class SeconsViewController: UIViewController
     */
     
     
-    
+    /*
+ Ive tried multiple ways of adding the two variables together, with no success...
+     I will ask later in class how to do this, I dont know if its my version or what, but I tried
+     importing, tired the let statments, ive been googling it, im sorry i couldent find anything ...
+ 
+ */
     var x = 45
     var y = 2
 
