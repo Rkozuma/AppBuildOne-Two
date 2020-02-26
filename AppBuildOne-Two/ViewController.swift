@@ -20,7 +20,7 @@ class ViewController: UIViewController
         self.LabelOne.text = "Universtiy of Hawai`i West O`ahu"
         self.view.backgroundColor = UIColor.gray
         
-        self.TextView.text = "A four-year, indigenous-serving institution, UH West Oʻahu provides an intellectually challenging higher education experience in a supportive setting, offering more than 30 academic concentrations in six degree programs designed for career success."
+        self.TextView.text = "The University of Hawai‘i - West O‘ahu Information Technology manages all technology resources on campus and prepares the UHWO Community for all new technologies."
     
         
         super.viewDidLoad()

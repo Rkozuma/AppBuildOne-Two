@@ -8,9 +8,24 @@
 
 import UIKit
 
-class SeconsViewController: UIViewController {
+class SeconsViewController: UIViewController
 
-    override func viewDidLoad() {
+
+{
+
+    
+    
+    @IBOutlet weak var FirstLabel: UILabel!
+    @IBOutlet weak var SecondLabel: UILabel!
+    
+    
+    
+    
+    
+    override func viewDidLoad()
+    {
+        self.FirstLabel.text = "The answer is: "
+        
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
@@ -26,5 +41,29 @@ class SeconsViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    
+    
+    var x = 45
+    var y = 2
 
+    var ans = 45 + 2
+
+    
+    
+    @IBAction func CaluclateButton(_ sender: Any)
+    {
+        self.SecondLabel.text = String(ans)
+        
+        if x > y
+        {
+            self.view.backgroundColor = UIColor.green
+        }
+        else
+        {
+            self.view.backgroundColor = UIColor.red
+        }
+    }
+    
+    
 }
